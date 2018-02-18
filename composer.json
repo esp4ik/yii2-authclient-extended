@@ -1,0 +1,26 @@
+{
+  "name": "esp4ik/yii2-authclient-extended",
+  "description": "Additional clients for Yii2 authclient: Instagram and etc",
+  "keywords": ["yii2", "authclient", "instagram"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/esp4ik/yii2-authclient-extended/issues",
+    "source": "https://github.com/esp4ik/yii2-authclient-extended"
+  },
+  "authors": [
+    {
+      "name": "Evgeny Voronets",
+      "email": "voronets.evgeny@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2-authclient": "2.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "esp4ik\\authclient\\": "src/"
+    }
+  }
+}
