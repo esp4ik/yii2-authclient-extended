@@ -28,7 +28,7 @@ php composer.phar require --prefer-dist esp4ik/yii2-authclient-extended
 or add
 
 ```
-"esp4ik/yii2-authclient-extended": "~1.0.0"
+"esp4ik/yii2-authclient-extended": "~1.1.0"
 ```
 
 to the require section of your composer.json.
