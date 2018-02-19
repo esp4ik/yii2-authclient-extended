@@ -54,6 +54,7 @@ class Instagram extends OAuth2
     protected function initUserAttributes()
     {
         $response = $this->api('users/self', 'GET');
+
         return $response['data'];
     }
 

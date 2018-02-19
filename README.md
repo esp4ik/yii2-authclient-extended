@@ -2,7 +2,7 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="50px">
     </a>
-    <h1 align="center">Additional clients for Yii2 authclient: Instagram and etc</h1>
+    <h1 align="center">Additional clients for Yii2 authclient: Instagram, Odnoklassniki and etc</h1>
     <br>
 </p>
 
@@ -13,6 +13,7 @@ For license information check the [LICENSE](LICENSE.md)-file.
 
 List of additional clients:
 - Instagram
+- Odnoklassniki
 
 ## Installation
 
@@ -49,7 +50,13 @@ return [
                     'clientId' => 'instagram_client_id',
                     'clientSecret' => 'instagram_client_secret',
                 ],
-                // etc.
+                'odnoklassniki' => [
+                    'class' => 'esp4ik\authclient\clients\Odnoklassniki',
+                    'clientId' => 'odnoklassniki_application_id',
+                    'clientSecret' => 'odnoklassniki_secret_key',
+                    'applicationId' => 'odnoklassniki_public_key',
+                ],
+                // ...
             ],
         ]
         // ...
